@@ -4,10 +4,10 @@ import './style.css';
 
 function Header() {
     return (
-        <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
             <Link to="/" className={window.location.pathname === "/"
                 ? "nav-link active" : "nav-link"}>
-                <h2>90s Music</h2></Link>
+                <h2 id='nav-text'>90s Music</h2></Link>
         <button className="navbar-toggler ml-auto hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
